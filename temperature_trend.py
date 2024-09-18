@@ -31,7 +31,7 @@ df = df.iloc[:-1, :-1]  # Drop the last row and unnecessary columns
 df_melted = df.melt(id_vars=['Year'], var_name='Month', value_name='Temperature')
 
 # Replace '***' with NaN and drop missing values
-df_melted['Temperature'].replace('***', pd.NA, inplace=True)
+df_melted['Temperature'] = df_melted['Temperature'].replace('***', pd.NA)
 df_melted.dropna(inplace=True)
 
 # Convert Temperature to float
