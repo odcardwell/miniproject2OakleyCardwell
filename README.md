@@ -3,7 +3,12 @@
 ### Oakley Cardwell
 
 ## Project Description
-This project will be using Pandas dataframes.
+This project analyzes the trend of global temperatures over the last century (1923 - 2023) using data from NASA's Goddard Institute for Space Studies (GISS).
+
+## Data Source
+
+- **NASA GISTEMP Team**: [GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/)
+- **Data File**: [GLB.Ts+dSST.csv](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv)
 
 ## Installation
 
@@ -26,10 +31,10 @@ This project will be using Pandas dataframes.
 
 Run the script:
 ```bash
-python main.py
+python temperature_trend.py
 ```
 
-The graphs will be saved in the /charts folder.
+The temperature trend plot will be saved in the charts directory as global_temperature_trend.png.
 
 ## Requirements
 - Python 3.x
