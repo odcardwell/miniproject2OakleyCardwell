@@ -37,10 +37,6 @@ python temperature_trend.py
 The temperature trend plot will be saved in the charts directory as global_temperature_trend.png.
 
 ## Requirements
-- Python 3.x
-- yfinance
-- numpy
-- matplotlib
 
 ### `requirements.txt`
 
